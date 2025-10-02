@@ -4,6 +4,6 @@ import { AboutMe } from './pages/about-me/about-me';
 
 export const routes: Routes = [
   { path: 'homePage', component: HomePage },
-{ path: '', redirectTo: 'homePage', pathMatch: 'full' },
- { path: 'aboutMe', component: AboutMe },
+  { path: '', redirectTo: 'homePage', pathMatch: 'full' },
+  { path: 'aboutMe', component: AboutMe },
 ];
