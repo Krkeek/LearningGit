@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home-page',
@@ -7,5 +8,11 @@ import { Component } from '@angular/core';
   styleUrl: './home-page.css'
 })
 export class HomePage {
+  private router = inject(Router)
+
+
+  protected redirectToAboutMe(){
+    this.router.navigate(['/aboutMe'])
+  }
 
 }

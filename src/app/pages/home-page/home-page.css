@@ -1,5 +1,20 @@
 .Section {
     height: 100vh;
     width: 100vw;
-    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Button {
+    padding: 1rem 2rem !important;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 200ms linear ;
+}
+
+.Button:hover {
+    background-color: aqua;
+    transition: background-color 200ms linear ;
 }
