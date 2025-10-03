@@ -5,17 +5,15 @@ import { Router } from '@angular/router';
   selector: 'app-home-page',
   imports: [],
   templateUrl: './home-page.html',
-  styleUrl: './home-page.css'
+  styleUrl: './home-page.css',
 })
 export class HomePage {
-  private router = inject(Router)
+  private router = inject(Router);
 
-
-  protected redirectToAboutMe(){
-    this.router.navigate(['/aboutMe'])
+  protected redirectToAboutMe() {
+    this.router.navigate(['/aboutMe']);
   }
-   protected handleAdd(){
-  alert("This is a dailog!");
-}
-
+  protected handleAdd() {
+    alert('This is a dailog!');
+  }
 }
