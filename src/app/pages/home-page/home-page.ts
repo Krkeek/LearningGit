@@ -14,5 +14,8 @@ export class HomePage {
   protected redirectToAboutMe(){
     this.router.navigate(['/aboutMe'])
   }
+   protected handleAdd(){
+  alert("This is a dailog!");
+}
 
 }
