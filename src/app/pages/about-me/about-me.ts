@@ -5,12 +5,11 @@ import { Router } from '@angular/router';
   selector: 'app-about-me',
   imports: [],
   templateUrl: './about-me.html',
-  styleUrl: './about-me.css'
+  styleUrl: './about-me.css',
 })
 export class AboutMe {
-   private router = inject(Router)
- protected redirectToHomePage(){
-    this.router.navigate(['/homePage'])
+  private router = inject(Router);
+  protected redirectToHomePage() {
+    this.router.navigate(['/homePage']);
   }
-
 }
