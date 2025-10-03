@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 })
 export class AboutMe {
    private router = inject(Router)
- protected redirectToAboutMe(){
+ protected redirectToHomePage(){
     this.router.navigate(['/homePage'])
   }
 
