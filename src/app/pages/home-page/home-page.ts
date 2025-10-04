@@ -16,8 +16,8 @@ export class HomePage {
 
   protected handleAdd(n1: string, n2: string) {
     console.log(n1);
-    console.log(n2);
-    let sum = Number(n1) + Number(n2);
+    console.log(n2);   
+    const sum = Number(n1) + Number(n2);
     alert('The sum is: ' + sum);
   }
 }
