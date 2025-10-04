@@ -1,6 +1,6 @@
 <div class="Section">
   <button class="Button" (click)="redirectToAboutMe()">Navigate to About Me</button>
-  <input type="text" />
-  <input type="text" />
-  <button class="Button" (click)="handleAdd()">Add</button>
+  <input type="number" #n1 />
+  <input type="number" #n2 />
+  <button class="Button" (click)="handleAdd(n1.value,n2.value)">Add</button>
 </div>

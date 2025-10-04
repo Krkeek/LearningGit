@@ -13,7 +13,9 @@ export class HomePage {
   protected redirectToAboutMe() {
     this.router.navigate(['/aboutMe']);
   }
-  protected handleAdd() {
-    alert('This is a dailog!');
+
+  protected handleAdd(n1: string, n2: string) {
+    const sum = Number(n1) + Number(n2);
+    alert('The sum is: ' + sum);
   }
 }
